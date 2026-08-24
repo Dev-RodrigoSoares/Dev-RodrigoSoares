@@ -29,5 +29,5 @@ Busco minha primeira oportunidade profissional na área de desenvolvimento de so
 Estou dando continuidade ao meu aprendizado e buscando desenvolver projetos práticos que contribuam para minha evolução profissional na área de tecnologia.
 
 🔗 Contato
-[LinkedIn](https://www.linkedin.com/in/rodrigo-soares-d3v)
-[GitHub](https://github.com/Dev-RodrigoSoares)
+- [LinkedIn](https://www.linkedin.com/in/rodrigo-soares-d3v)
+- [GitHub](https://github.com/Dev-RodrigoSoares)
