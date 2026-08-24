@@ -1,33 +1,95 @@
-# Olá! 👋
+# Sistema de Automação e Integração de Dados
 
-## Meu nome é Rodrigo Soares. Sou formado em Análise e Desenvolvimento de Sistemas e possuo formação técnica em Informática.
+Projeto desenvolvido em **Python** para coleta, processamento e integração de dados utilizando uma **API REST**, **Webhooks**, **Make (Integromat)** e **Google Sheets**.
 
-Atualmente, estou direcionando meu desenvolvimento profissional para Python, com foco em desenvolvimento Back-end, automação de processos, integração entre sistemas, consumo de APIs e processamento de dados.
+O sistema utiliza a API do Clash of Clans como fonte de dados e realiza o processamento das informações antes de enviá-las para uma automação no Make, responsável pela integração com o Google Sheets.
 
-## 🛠️ Tecnologias e conhecimentos
+> **Observação:** O código-fonte e as configurações internas deste projeto não são disponibilizados publicamente. Este repositório tem como objetivo apresentar a arquitetura, as tecnologias utilizadas e o funcionamento geral da solução.
+
+---
+
+## 🔄 Fluxo da aplicação
+
+```text
+Clash of Clans API
+        ↓
+      Python
+        ↓
+Processamento dos dados
+        ↓
+   Make Webhook
+        ↓
+   Google Sheets
+```
+## 🛠️ Tecnologias utilizadas
 - Python
-- APIs REST
+- Requests
+- API REST
 - Webhooks
-- Automação de processos
-- Integração de dados
 - Make (Integromat)
 - Google Sheets
-- Lógica de programação
-- Conceitos básicos de banco de dados
 
-## 📌 Projeto em destaque
-Sistema de Automação e Integração de Dados com API REST
+## ⚙️ Funcionamento
 
-Projeto desenvolvido em Python para coleta automatizada de dados por meio de uma API REST, com tratamento e organização das informações e integração com Webhooks, Make (Integromat) e Google Sheets.
+O sistema realiza as seguintes etapas:
 
-O projeto foi desenvolvido como uma aplicação prática dos conhecimentos de Python, consumo de APIs, automação e integração entre diferentes serviços.
+1. O Python realiza uma requisição à API do Clash of Clans.
+2. Os dados da CWL são recebidos pela aplicação.
+3. O sistema identifica as guerras relacionadas ao clã configurado.
+4. Os dados da guerra selecionada são processados e organizados.
+5. Informações dos jogadores, ataques, defesas e níveis de Centro de Vila são tratadas.
+6. Informações adicionais são calculadas e associadas aos dados recebidos.
+7. Os registros são estruturados em um payload JSON.
+8. O payload é enviado para um Webhook do Make.
+9. O Make recebe e processa os dados.
+10. As informações são integradas ao Google Sheets.
 
-## 🎯 Objetivo profissional
+## 📊 Processamento dos dados
 
-Busco minha primeira oportunidade profissional na área de desenvolvimento de software, com interesse especial em Back-end com Python, automação e integração de sistemas.
+Entre os dados processados pelo sistema estão:
 
-Estou dando continuidade ao meu aprendizado e buscando desenvolver projetos práticos que contribuam para minha evolução profissional na área de tecnologia.
+- informações da guerra;
+- temporada da CWL;
+- liga do clã;
+- identificação do clã participante;
+- identificação do clã adversário;
+- membros participantes;
+- níveis de Centro de Vila (TH);
+- ataques realizados;
+- ataques recebidos;
+- estrelas obtidas;
+- percentual de destruição;
+- duração dos ataques;
+- diferença entre o TH do atacante e do defensor;
+- informações visuais relacionadas à liga e ao clã.
 
-🔗 Contato
-- [LinkedIn](https://www.linkedin.com/in/rodrigo-soares-d3v)
-- [GitHub](https://github.com/Dev-RodrigoSoares)
+## 🔗 Integrações
+
+A arquitetura principal da solução é:
+
+## API REST → Python → Webhook → Make → Google Sheets
+
+O Python é responsável pela coleta e pelo processamento dos dados, enquanto o Make realiza a automação e a integração com o Google Sheets.
+
+## 🎯 Objetivo do projeto
+
+O projeto foi desenvolvido como uma aplicação prática para trabalhar conceitos de:
+
+- desenvolvimento com Python;
+- consumo de APIs REST;
+- requisições HTTP;
+- tratamento e transformação de dados;
+- automação de processos;
+- integração entre sistemas;
+- utilização de Webhooks;
+- comunicação entre diferentes serviços.
+
+## 📷 Demonstração
+
+Imagens e exemplos do funcionamento da solução serão apresentados nesta seção.
+
+## 🔐 Privacidade e segurança
+
+Por questões de segurança, o código-fonte, tokens, credenciais, URLs privadas e configurações internas da aplicação não são disponibilizados neste repositório.
+
+O conteúdo publicado possui finalidade demonstrativa e apresenta a arquitetura, as tecnologias e o funcionamento geral do projeto.
