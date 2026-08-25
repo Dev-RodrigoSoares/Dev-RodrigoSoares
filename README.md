@@ -10,17 +10,12 @@ O sistema utiliza a API do Clash of Clans como fonte de dados e realiza o proces
 
 ## 🔄 Fluxo da aplicação
 
-```text
-Clash of Clans API
-        ↓
-      Python
-        ↓
-Processamento dos dados
-        ↓
-   Make Webhook
-        ↓
-   Google Sheets
-```
+A solução utiliza a seguinte arquitetura:
+
+**Clash of Clans API → Python → Webhook → Make → Google Sheets**
+
+![Fluxo da aplicação](fluxo-aplicacao.png)
+
 ## 🛠️ Tecnologias utilizadas
 - Python
 - Requests
@@ -28,6 +23,7 @@ Processamento dos dados
 - Webhooks
 - Make (Integromat)
 - Google Sheets
+
 
 ## ⚙️ Funcionamento
 
