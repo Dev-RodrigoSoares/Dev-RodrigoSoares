@@ -16,6 +16,8 @@ A solução utiliza a seguinte arquitetura:
 
 ![Fluxo da aplicação](fluxo-aplicacao.png)
 
+---
+
 ## 🛠️ Tecnologias utilizadas
 - Python
 - Requests
