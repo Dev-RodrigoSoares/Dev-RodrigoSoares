@@ -50,7 +50,6 @@ Entre os dados processados pelo sistema estão:
 - temporada da CWL;
 - liga do clã;
 - identificação do clã participante;
-- identificação do clã adversário;
 - membros participantes;
 - níveis de Centro de Vila (TH);
 - ataques realizados;
@@ -86,9 +85,17 @@ O projeto foi desenvolvido como uma aplicação prática para trabalhar conceito
 
 ### 📊 Dashboard — Avaliação da Temporada
 
-A solução possui uma interface visual desenvolvida no Google Sheets para análise do desempenho dos jogadores durante as temporadas da Clan War League (CWL).
+A solução possui uma interface visual desenvolvida no Google Sheets para análise do desempenho dos jogadores durante as temporadas de War League (CWL).
 
 ![Dashboard da Avaliação da Temporada](dashboard-avaliacao.png)
+
+### ⚠️ Análise de desempenho e penalizações
+
+A solução também permite identificar situações específicas durante as guerras, como jogadores que obtiveram apenas uma estrela em seus ataques e jogadores que não realizaram seus ataques.
+
+![Players que deram 1 estrela](penalizacoes-1-estrela.png)
+
+![Players que deixaram de atacar](ataques-nao-realizados.png)
 
 ## 🔐 Privacidade e segurança
 
