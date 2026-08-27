@@ -65,7 +65,7 @@ Entre os dados processados pelo sistema estão:
 
 A arquitetura principal da solução é:
 
-## API REST → Python → Webhook → Make → Google Sheets
+**API REST → Python → Webhook → Make → Google Sheets**
 
 O Python é responsável pela coleta e pelo processamento dos dados, enquanto o Make realiza a automação e a integração com o Google Sheets.
 
@@ -84,7 +84,11 @@ O projeto foi desenvolvido como uma aplicação prática para trabalhar conceito
 
 ## 📷 Demonstração
 
-Imagens e exemplos do funcionamento da solução serão apresentados nesta seção.
+### 📊 Dashboard — Avaliação da Temporada
+
+A solução possui uma interface visual desenvolvida no Google Sheets para análise do desempenho dos jogadores durante as temporadas da Clan War League (CWL).
+
+![Dashboard da Avaliação da Temporada](dashboard-avaliacao.png)
 
 ## 🔐 Privacidade e segurança
 
